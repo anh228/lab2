@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    background-color: rgb(238, 238, 238);
+ }
+
+ p{
+    margin-bottom:30px;
+ }
+ h5{
+    font-weight: bold;
+ }
+ .even h6{
+    color: white;
+    width: 25%;
+    background-color: rgb(58, 97, 187);
+    border-radius: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5;
+ }
+ .odd h6{
+    color: white;
+    width: 35%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+ }
+ .section{
+    padding: 30px;
+ }
+ .section a{
+   font-weight: bold;
+ }
+ .lefthd{
+   float: right;
+ }
+.fill{
+   line-height: 1.7;
+   border: 1px solid #333;
+   border-radius: 2px 15px 15px 15px;
+   padding-left: 10px;
+}
+span{
+   font-weight: 400;
+}
+u{
+   color: rgb(71, 123, 255);
+}
+.pagination{
+   float: right;
+}
+.seen{
+   float: right;
+   margin-right: 20px;
+}
+.seen .icon{
+   border-radius: 50%;
+   margin: -5px;
+}
+.seen a{
+   margin-left: 5px;
+}
